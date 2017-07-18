@@ -18,6 +18,5 @@ matrix:
 script:
 #- ". install_ruby.sh"
 #- ". upload_to_bintray.sh"
-- "ls -alh /usr/local/lib"
 - "ls -alh /usr/local/lib/ruby"
 - "ls -alh ~/.rvm"
