@@ -11,12 +11,10 @@ matrix:
     osx_image: xcode7.3
   - os: osx
     osx_image: xcode8.1
-#install:
-#- "mkdir $MY_BEDROOM"
-#- ". $TRAVIS_BUILD_DIR/clone.sh"
-#- "rm -rf $RBENV_HOME"
+install:
+- "mkdir $MY_BEDROOM"
+- ". $TRAVIS_BUILD_DIR/clone.sh"
+- "rm -rf $RBENV_HOME"
 script:
-#- ". install_ruby.sh"
-#- ". upload_to_bintray.sh"
-- "ls -alh /usr/local/lib/ruby"
-- "ls -alh ~/.rvm"
+- ". install_ruby.sh"
+- ". upload_to_bintray.sh"
